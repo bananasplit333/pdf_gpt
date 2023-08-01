@@ -19,6 +19,8 @@ def translate(messages, model="gpt-3.5-turbo", temperature=0, max_tokens=500):
     )
     return response.choices[0].message["content"]
 
+
+
 """
     delimiter = "####"
     user_prompt = f
